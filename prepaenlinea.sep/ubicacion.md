@@ -36,3 +36,50 @@ Alcaldía Álvaro Obregón, C.P. 01040, Ciudad de México
 #  e-mail:   contactodgb@dgb.sems.gob.mx
 
 
+
+
+>
+>
+> Oficina de atención más cercana
+
+
+
+#  3 Oficinas disponibles
+Dirección General del Bachillerato
+
+----
+
+
+
+## Domicilio
+Avenida Revolución Álvaro Obregón, Campestre, 1425, C.P.01040, Telefono: (553) 601-1000, ,ext. 63229,
+
+Horarios de atención
+Lunes 09:00 - 03:00
+Dirección General de Educación Tecnológica Industrial y de Servicios
+
+##  Domicilio
+Universidad Benito Juárez, Xoco, 1200, C.P.03330, Telefono: (553) 600-2511, ,ext. 60653,
+Correo: departamento.serviciosescolares@dgeti.sems.gob.mx
+
+Horarios de atención
+Lunes 09:00 - 03:00
+Lunes 09:00 - 06:00
+Martes 09:00 - 06:00
+Miércoles 09:00 - 06:00
+Jueves 09:00 - 06:00
+Viernes 09:00 - 06:00
+Dirección General de Educación Tecnológica Agropecuaria y Ciencias del Mar
+
+##  Domicilio
+Universidad Benito Juárez, Xoco, 1200, C.P.03330, Telefono: (553) 600-2511, ,ext. 62426,
+Correo: dgetaycm.honestidad@dgetaycm.sems.gob.mx
+
+Horarios de atención
+Lunes 09:00 - 03:00
+Lunes 09:00 - 06:00
+Martes 09:00 - 06:00
+Miércoles 09:00 - 06:00
+Jueves 09:00 - 06:00
+Viernes 09:00 - 06:00
+
