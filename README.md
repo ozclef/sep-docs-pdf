@@ -203,19 +203,24 @@ equivalencia-revalidacion/
 
 
 
-> https://dgb.sep.gob.mx/tramite/equivalencia-de-estudios-realizados-en-mexico
 
+> https://dgb.sep.gob.mx/tramitesyservicios
+> https://www.gob.mx/public/tramites/detalleTramite.xhtml?homoclave=SEP-25-004
 > https://siged.sep.gob.mx/SIGED/datos_abiertos.html
 > https://sere.sep.gob.mx/login.jsp
+> https://dgb.sep.gob.mx/tramite/equivalencia-de-estudios-realizados-en-mexico
+>  https://prepaenlinea.sep.gob.mx/plan-de-estudios/
+>
+>
+>
+
+
+
+
 
 
 <img width="1659" height="5431" alt="image" src="https://github.com/user-attachments/assets/c174adf7-12e4-4b55-9efb-4c2788a46487" />
 
-
-
-
-
-> https://prepaenlinea.sep.gob.mx/plan-de-estudios/
 
 
 
