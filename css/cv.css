@@ -1,0 +1,168 @@
+	/*	body {
+			background-color: var(--bg);
+			color: var(--text);
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			margin: 0;
+			padding: 20px;
+			 
+		}
+			/*body, .layout { width:95vh}*/
+
+  h1,h2,h3 {
+    color: var(--accent);
+  }
+
+/*.layout,*/
+		.container
+		{
+    max-width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  .portada {      height: 180px;    
+			/*background: url('https://github.com/ozclef/oscarcruzdiaz.vercel.app/blob/f076bc97ce4c9fb94f51e757613d0763a23893f2/img/studio-rgb-pixel-heart.jpg') center/cover;*/
+			background: url('/img/studio-rgb-pixel-heart.jpg') center/cover;  
+			position: relative;    }
+    .foto-perfil {      position: absolute;      bottom: -40px;    
+				  left: 24px;      width: 120px;      height: 120px; 
+				  border-radius: 50%; 
+				  border: 4px solid var(--card);
+				  /*background: url('https://i.imgur.com/1X1X1X1.jpg') center/cover;*/ 
+				  background: url('https://avatars.githubusercontent.com/u/227050307?v=4') center/cover;
+				 }
+ 
+  .card {
+    background: var(--card);
+    border-radius: var(--radius);
+    padding: 20px;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card h3 {
+    margin-top: 0;
+  }
+
+  .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: var(--accent2, #fbbf24);
+  }
+
+  .skills, .projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .skill, .project-badge,
+		 .skill:hover ,  .project-badge:hover {
+    background: var(--accent);
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+  }
+
+  a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+
+	@media print {
+
+  body {
+    background: white !important;
+    color: black !important;
+    padding: 0;
+    margin: 0;
+    font-size: 11px;
+  }
+
+  header, footer {
+    text-align: center;
+  }
+
+  .container {
+    display: block;
+  }
+
+  .card {
+    box-shadow: none;
+    border: 1px solid #ccc;
+    page-break-inside: avoid;
+    margin-bottom: 10px;
+  }
+
+  .section-title {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 11px;
+  }
+
+  .skills, .projects {
+    gap: 5px;
+  }
+
+  .skill, .project-badge {
+    font-size: 9px;
+    padding: 3px 6px;
+  }
+
+  /* ❌ ocultar cosas innecesarias */
+	  .portada,    .foto-perfil, 	 .container,
+  iframe, nav, button {
+    display: none !important;
+  }
+
+
+  /* ❌ OCULTAR layout web */
+  aside,
+  nav,
+  header nav,
+  .layout > aside,
+  button,
+  iframe {
+    display: none !important;
+  }
+
+  /* ✅ SOLO mostrar main */
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+		
+  @page {
+    size: A4;
+    margin: 10mm;
+  }
+}

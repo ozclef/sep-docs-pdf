@@ -1,0 +1,11 @@
+.menu-link{
+  display:block;
+  padding:10px 14px;
+  border-radius:10px;
+  text-decoration:none;
+  transition:.2s;
+}
+
+.menu-link:hover{
+  transform:translateX(4px);
+}

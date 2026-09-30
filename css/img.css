@@ -1,0 +1,15 @@
+.galeria{
+    display:flex;
+    flex-wrap:wrap;
+    gap:16px;
+    justify-content:center;
+}
+
+.galeria img{
+    max-width:320px;
+    width:100%;
+    height:auto;
+    border-radius:12px;
+    object-fit:cover;
+    box-shadow:0 4px 12px rgba(0,0,0,.2);
+}

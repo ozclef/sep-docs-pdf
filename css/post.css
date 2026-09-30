@@ -1,0 +1,53 @@
+.post {width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card-post{
+    background: rgba(255,255,255,.03);
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 16px;
+
+    padding: 20px;
+    margin: 16px 0;
+
+    backdrop-filter: blur(8px);
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        border-color .25s ease;
+
+    overflow: hidden;
+
+    .card-post:hover{
+    transform: translateY(-4px);
+
+    border-color: rgba(255,255,255,.18);
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.25);
+}
+}
+
+
+.card-post{
+    cursor:pointer;
+}
+.card-post:hover h2{
+    letter-spacing:.5px;
+}
+
+.card-post h2{
+    transition:.25s;
+}
+
+    
+
+
+    

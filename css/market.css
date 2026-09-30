@@ -1,0 +1,31 @@
+:root{
+  --bg:#09090f; --card:#0f1116;
+  --a1:#ff3bff; --a2:#37e3ff; --a3:#6dff6b;
+  --muted:#b7bcc3;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; font-family:Segoe UI,system-ui,Arial;
+  background:linear-gradient(135deg, rgba(255,59,255,0.03), rgba(55,227,255,0.03));
+  color:#eaf7f0; padding:28px;
+}
+.container{max-width:1100px;margin:0 auto}
+header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+h1{margin:0;font-size:18px;background:linear-gradient(90deg,var(--a1),var(--a2),var(--a3));-webkit-background-clip:text;color:transparent}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.card{
+  background:var(--card);border-radius:12px;padding:16px;border:1px solid rgba(255,255,255,0.03);
+  box-shadow:0 6px 18px rgba(0,0,0,0.6);
+}
+.thumb{height:160px;border-radius:8px;background:#0c0d10 center/cover no-repeat;margin-bottom:12px;display:flex;align-items:center;justify-content:center;color:var(--muted)}
+.title{font-size:16px;margin:0 0 8px 0}
+.desc{color:var(--muted);font-size:14px;margin:0 0 12px}
+.row{display:flex;justify-content:space-between;align-items:center}
+.price{font-weight:700}
+.btn{
+  background:linear-gradient(90deg,var(--a2),var(--a3));
+  padding:8px 12px;border-radius:8px;color:#051018;text-decoration:none;font-weight:600;
+}
+.badge{font-size:12px;padding:6px;border-radius:8px;background:rgba(255,255,255,0.02);color:var(--muted)}
+.footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center}
+@media (max-width:420px){.thumb{height:120px}}

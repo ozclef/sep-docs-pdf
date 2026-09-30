@@ -1,0 +1,58 @@
+    :root {      --bg: #0f1115;      --card: #16181c;      --accent: #6ce6b6;      --muted: #9aa0a6;    }
+    body {      margin: 0;      font-family: 'Segoe UI', sans-serif;      background: var(--bg);      color: #eaf7f0;    }
+    header {      position: fixed;      top: 0;      left: 0;      right: 0;      background: var(--card);      padding: 12px 24px;      display: flex;      justify-content: space-between;      align-items: center;      z-index: 1000;    }
+    header h1 {      margin: 0;      font-size: 18px;      color: var(--accent);    }
+    nav a {      margin-left: 16px;      color: var(--muted);      text-decoration: none;      font-weight: 500;    }
+    .layout {      display: grid;      grid-template-columns: 220px 1fr 220px;      gap: 18px;      padding: 100px 24px 24px;    }
+    aside {      background: var(--card);      padding: 12px;      border-radius: 8px;    }
+    .perfil {      background: var(--card);      border-radius: 12px;      overflow: hidden;    }
+    .portada {
+      height: 180px;
+      background: url('https://avatars.githubusercontent.com/u/227050307?v=4') center/cover;
+      position: relative;
+    }
+    .foto-perfil {
+      position: absolute;
+      bottom: -40px;
+      left: 24px;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 4px solid var(--card);
+      /*background: url('https://i.imgur.com/1X1X1X1.jpg') center/cover;*/
+      background: url('https://avatars.githubusercontent.com/u/227050307?v=4') center/cover;
+    }
+    .info {
+      padding: 60px 24px 24px;
+    }
+    .info h2 {
+      margin: 0;
+      font-size: 22px;
+    }
+    .info p {
+      margin: 6px 0;
+      color: var(--muted);
+    }
+    .datos {
+      margin-top: 12px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .dato {
+      background: rgba(255,255,255,0.03);
+      padding: 10px;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    @media (max-width: 768px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+      aside {
+        display: none;
+      }
+      .datos {
+        grid-template-columns: 1fr;
+      }
+    }
