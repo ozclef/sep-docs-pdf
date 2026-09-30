@@ -3,7 +3,7 @@
 
 
 
-### prepa-en-linea-sep-documentacion  
+# prepa-en-linea-sep-documentacion  
 
 
 
@@ -196,18 +196,52 @@ equivalencia-revalidacion/
 
 
 
-Enlaces oficiales  SEP/SIGED/DGB.
 
 
 
-https://dgb.sep.gob.mx/tramite/equivalencia-de-estudios-realizados-en-mexico
+> Enlaces oficiales  SEP/SIGED/DGB.
 
-https://siged.sep.gob.mx/SIGED/datos_abiertos.html
-https://sere.sep.gob.mx/login.jsp
+
+
+> https://dgb.sep.gob.mx/tramite/equivalencia-de-estudios-realizados-en-mexico
+
+> https://siged.sep.gob.mx/SIGED/datos_abiertos.html
+> https://sere.sep.gob.mx/login.jsp
 
 
 <img width="1659" height="5431" alt="image" src="https://github.com/user-attachments/assets/c174adf7-12e4-4b55-9efb-4c2788a46487" />
 
+
+
+
+
+> https://prepaenlinea.sep.gob.mx/plan-de-estudios/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----
 
 
 **No necesita subir  certificados ni documentos personales.**
