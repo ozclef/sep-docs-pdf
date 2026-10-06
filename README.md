@@ -13,6 +13,10 @@ prepa-en-linea-sep-2016-2018
 ```
  plan 2026:
 
+
+<img width="569" height="238" alt="image" src="https://github.com/user-attachments/assets/dcf07268-28b1-4875-9cf6-02b608a8b9f3" />
+
+
 ```text
 prepa-en-linea-sep
 ```
